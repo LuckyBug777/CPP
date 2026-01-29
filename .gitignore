@@ -1,0 +1,25 @@
+# Ignore all files without extension (compiled binaries)
+*
+
+# But keep source files
+!*.cpp
+!*.h
+
+# Keep git-related files
+!.gitignore
+# VS Code settings
+.vscode/
+
+# Compiled binaries / executables
+a.out
+*.exe
+*.out
+
+# Object files
+*.o
+
+# Debug files
+*.dSYM/
+
+# Temporary files
+*.log
