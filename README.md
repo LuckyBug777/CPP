@@ -7,8 +7,8 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **helloworld.cpp** - Classic Hello World program with output basics
 - **variable.cpp** - Variable declaration and data types (int, float, double)
 - **const.cpp** - Constants and their usage
-- **typedef.cpp** - Type definitions and aliases
 - **namespaces.cpp** - Namespace declaration and usage
+- **typedef.cpp** - Type definitions and aliases
 
 ## 🚀 Getting Started
 
