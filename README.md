@@ -12,9 +12,9 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **arithmetic_operators.cpp** - Arithmetic operators and precedence. 
 - **type_conversion.cpp** - Implicit and explicit conversions.
 - **insertion_extraction_operator.cpp** - User input operations.
--**math_functions.cpp** - Math operations and usage of cmath library.
--**hypotenuse_calculator.cpp** - Hypotenuse calculator using cmath.
--**if_statements.cpp** - if else statements in cpp.
+- **math_functions.cpp** - Math operations and usage of cmath library.
+- **hypotenuse_calculator.cpp** - Hypotenuse calculator using cmath.
+- **if_statements.cpp** - if else statements in cpp.
 
 
 ## 🚀 Getting Started
