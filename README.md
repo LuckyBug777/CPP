@@ -15,8 +15,8 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **math_functions.cpp** - Math operations and usage of cmath library.
 - **hypotenuse_calculator.cpp** - Hypotenuse calculator using cmath.
 - **if_statements.cpp** - if else statements in cpp.
-
-
+- **switch_case.cpp** - switch cases in cpp.
+- **calculator_program.cpp** - Simple caclculator program using switch case.
 ## 🚀 Getting Started
 
 ### Build
