@@ -17,7 +17,8 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **if_statements.cpp** - if else statements in cpp.
 - **switch_case.cpp** - switch cases in cpp.
 - **calculator_program.cpp** - Simple caclculator program using switch case.
-- **ternary_operator.cpp** - Ternary operators and thier usage.
+- **ternary_operator.cpp** - Ternary operators and their usage.
+- **logical_operator.cpp** - Logical operatos and their usage.
 ## 🚀 Getting Started
 
 ### Build
