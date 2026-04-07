@@ -22,6 +22,8 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **temperature_convertor.cpp** - Temperature convertor program.
 - **string_methods.cpp** - Information about different string methods.
 - **while_loop.cpp** - Running a block of code untill the condition is true.
+- **do_while_loop.cpp** - Running the code block once later checking condition and continuing untill the case is true.
+
 ## 🚀 Getting Started
 
 ### Build
