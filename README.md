@@ -20,6 +20,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **ternary_operator.cpp** - Ternary operators and their usage.
 - **logical_operator.cpp** - Logical operatos and their usage.
 - **temperature_convertor.cpp** - Temperature convertor program.
+- **string_methods.cpp** - Information about different string methods.
 ## 🚀 Getting Started
 
 ### Build
