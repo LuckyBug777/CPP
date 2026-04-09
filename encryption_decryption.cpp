@@ -6,16 +6,18 @@ int main()
     This is the encryption & decryption machine
     */
     std::cout << "*-*-*-*-*-*-*-*-*-*-WELCOME-*-*-*-*-*-*-*-*-*-*" << std::endl;
-    int number;
     int choice;
-    char letter;
-    std::string word;
+
     std::cout << "Enter Your choice \n 1. Encrypt\n 2. Decrypt\n 3. Exit\n";
     std::cin >> choice;
     // std::cout << ((choice == 1) ? "You chose Encrypt" :(choice == 2) ? "You chose Decrypt" : "Invalid choice") << std::endl;
     do
     {
         std::string result;
+        char letter;
+        int number;
+        std::string word;
+        
         if (choice == 1)
         {
             std::cout << "Welcome to Encrypter" << std::endl;
