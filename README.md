@@ -24,6 +24,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **while_loop.cpp** - Running a block of code untill the condition is true.
 - **do_while_loop.cpp** - Running the code block once later checking condition and continuing untill the case is true.
 - **for_loop.cpp** - Running the code block defined number of times.
+- **break_and_continue.cpp** - Break out of the loop and skip current iteration.
 
 ## 🚀 Getting Started
 
