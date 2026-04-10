@@ -28,6 +28,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **nested_loop.cpp** - Loop inside a loop is called nested loop.
 - **encryption_decryption.cpp** - This is the encryption & decryption machine, it encrypts or decrypts the input string.
 - **random_number_generator.cpp** - Random number generator using srand funciton.
+- **random_event_generator.cpp** - Generates random events based on random number.
 ## 🚀 Getting Started
 
 ### Build
