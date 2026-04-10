@@ -30,6 +30,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **random_number_generator.cpp** - Random number generator using srand funciton.
 - **random_event_generator.cpp** - Generates random events based on random number.
 - **number_guessing_name.cpp** - Number guessing game using random numbers.
+- **functions.cpp** - User defined functions and their usage.
 ## 🚀 Getting Started
 
 ### Build
