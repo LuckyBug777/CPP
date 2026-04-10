@@ -29,6 +29,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **encryption_decryption.cpp** - This is the encryption & decryption machine, it encrypts or decrypts the input string.
 - **random_number_generator.cpp** - Random number generator using srand funciton.
 - **random_event_generator.cpp** - Generates random events based on random number.
+- **number_guessing_name.cpp** - Number guessing game using random numbers.
 ## 🚀 Getting Started
 
 ### Build
