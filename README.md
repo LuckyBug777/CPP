@@ -27,6 +27,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **break_and_continue.cpp** - Break out of the loop and skip current iteration.
 - **nested_loop.cpp** - Loop inside a loop is called nested loop.
 - **encryption_decryption.cpp** - This is the encryption & decryption machine, it encrypts or decrypts the input string.
+- **random_number_generator.cpp** - Random number generator using srand funciton.
 ## 🚀 Getting Started
 
 ### Build
