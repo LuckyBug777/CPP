@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
 
 std::string encrypt(std::string text, int shift);
 std::string decrypt(std::string text, int shift);
@@ -17,13 +18,29 @@ int main()
     std::cout << "*-*-*-*-*-*-*-*-*-*-WELCOME-*-*-*-*-*-*-*-*-*-*" << std::endl;
     int choice;
     std::vector<VaultEntry> MyVault;
-    std::cout << "Enter Your choice \n 1. Store\n 2. Fetch\n 3. Exit\n";
-    std::cin >> choice;
-    std::cin.ignore();
+    std::ifstream inFile("vault.txt");
+    if (inFile.is_open())
+    {
+        VaultEntry vault;
+        std::string webname, uname, pswd;
+        while (std::getline(inFile, webname, '|'))
+        {
+            vault.WebsiteName = webname;
+            std::getline(inFile, uname, '|');
+            vault.UserName = uname;
+            std::getline(inFile, pswd, '|');
+            vault.EncryptedPasstext = pswd;
+            MyVault.push_back(vault);
+        }
+        inFile.close();
+    }
 
     do
     {
         VaultEntry vault;
+        std::cout << "Enter Your choice \n 1. Store\n 2. Fetch\n 3. Exit\n";
+        std::cin >> choice;
+        std::cin.ignore();
         if (choice == 1)
         {
             std::string webname, uname, pswd;
@@ -41,7 +58,7 @@ int main()
         else if (choice == 2)
         {
             std::string webname;
-            std::cout << "Enter name of website which u need username and password: ";
+            std::cout << "Enter name of website which you need username and password: ";
             std::getline(std::cin, webname);
             bool found = false;
             for (VaultEntry item : MyVault)
@@ -49,7 +66,7 @@ int main()
                 if (item.WebsiteName == webname)
                 {
                     found = true;
-                    std::cout << "Your User Name is: " << item.UserName << "Password is: " << decrypt(item.EncryptedPasstext, 3) << "\n";
+                    std::cout << "Your User Name is: " << item.UserName << " Password is: " << decrypt(item.EncryptedPasstext, 3) << "\n";
                     break;
                 }
             }
@@ -60,14 +77,26 @@ int main()
         }
         else if (choice == 3)
         {
+            std::ofstream outFile("vault.txt");
+            if (outFile.is_open())
+            {
+                for (VaultEntry item : MyVault)
+                {
+                    outFile << item.WebsiteName << "|" << item.UserName << "|" << item.EncryptedPasstext << std::endl;
+                }
+            }
+            else
+            {
+                std::cout << "File Not Found" << std::endl;
+            }
+            outFile.close();
             break;
         }
         else
         {
             std::cout << "Invalid Choice" << std::endl;
         }
-        std::cout << "Enter Your choice \n 1. Store\n 2. Fetch\n 3. Exit\n";
-        std::cin >> choice;
+        std::cout << "*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*" << std::endl;
     } while (choice != 3);
     return 0;
 }
