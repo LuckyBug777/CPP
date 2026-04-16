@@ -32,6 +32,7 @@ A collection of simple C++ programs to learn fundamental programming concepts.
 - **number_guessing_name.cpp** - Number guessing game using random numbers.
 - **functions.cpp** - User defined functions and their usage.
 - **digital_vault.cpp** - A simple cpp program which uses vector and structure , acts as an password vault and stores in file for persistant storage.
+- **bank_account_simulator** - A simple cpp program using threads to simulate bank balance simulator using mutex and thread.
 ## 🚀 Getting Started
 
 ### Build
